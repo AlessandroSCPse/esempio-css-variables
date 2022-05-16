@@ -1,0 +1,42 @@
+/* VARIABLES */
+:root {
+    --primary-color: green;
+    --secondary-color: white;
+
+    --general-vertical-padding: 40px;
+}
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: var(--general-vertical-padding) 0;
+}
+
+section {
+    padding: var(--general-vertical-padding) 0;
+    border: 1px solid var(--primary-color);
+    background-color: var(--secondary-color);
+}
+section h2 {
+    color: var(--primary-color);
+}
+
+.btn {
+    padding: 5px 15px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.btn:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
